@@ -4,50 +4,91 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/main.css" />
 		<title>Style System | Udacity Blog Project</title>
 	</head>
 	<body>
-		<div class="container">
-			<p>Font Family</p>
-			<p>sans-serif</p>
+		<header class="header">
+			<div class="container">
+				<div class="flex">
+					<p class="logo">Kayano's Blog</p>
+					<nav>
+						<ul class="gnav">
+							<li><a class="gnav-link" href="#">Home</a></li>
+							<li><a class="gnav-link" href="#">Blog</a></li>
+							<li><a class="gnav-link" href="#">About</a></li>
+							<li><a class="gnav-link" href="#">Contact</a></li>
+							<li><a class="gnav-link" href="./design">Design</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-			<p>Font Size</p>
-			<p>16px</p>
+		<div class="container design">
+			<div class="flex">
+				<main class="main">
+					<p>Font Family: Roboto, sans-serif</p>
 
-			<p>Background Color</p>
-			<p>#ccc</p>
+					<p>Font Size: 16px</p>
 
-			<p>Primary Color</p>
-			<p>#fff</p>
+					<p>Background Color: #f3f3f3</p>
 
-			<p>Secondary Color</p>
-			<p>#fff</p>
+					<p>Primary Color: <span class="primary">#2e98c2</span></p>
 
-			<p>Tertiary Color</p>
-			<p>#fff</p>
+					<p>Secondary Color <span class="secondary">#a5d4aa</span></p>
 
-			<p>Link</p>
-			<p>#fff</p>
+					<p>Tertiary Color: <span class="tertiary">#a5d4aa</span></p>
 
-			<p>Link: hover</p>
-			<p>#fff</p>
+					<p>Link: <span class="primary">#2e98c2</span></p>
 
-			<p>List</p>
-			<ul>
-				<li><a href="">List 1</a></li>
-				<li><a href="">List 2</a></li>
-				<li><a href="">List 3</a></li>
-			</ul>
+					<ul>
+						<li><a href="">List 1</a></li>
+						<li><a href="">List 2</a></li>
+						<li><a href="">List 3</a></li>
+					</ul>
 
-			<h1>H1</h1>
-			<h2>H2</h2>
-			<h3>H3</h3>
-			<h4>H4</h4>
-			<h5>H5</h5>
-			<h6>H6</h6>
+					<h1>H1</h1>
+					<h2>H2</h2>
+					<h3>H3</h3>
+					<h4>H4</h4>
+					<h5>H5</h5>
+					<h6>H6</h6>
 
-			<button>Button</button>
-			<button>Button</button>
+					<a href="" class="btn btn-primary">Button</a>
+				</main>
+
+				<div class="sidenav">
+					<p>Recent Posts</p>
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="flex">
+					<p class="logo">Kayano's Blog</p>
+					<ul class="footer-nav">
+						<li><a class="footer-nav-link" href="#">Home</a></li>
+						<li><a class="footer-nav-link" href="#">Blog</a></li>
+						<li><a class="footer-nav-link" href="#">About</a></li>
+						<li><a class="footer-nav-link" href="#">Contact</a></li>
+						<li><a class="footer-nav-link" href="./design">Design</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
