@@ -16,3 +16,8 @@
 .author-text-bold {
 	font-weight: bold;
 }
+@media (max-width: 639px) {
+  .sidenav {
+    margin-top: 20px;
+  }
+}
