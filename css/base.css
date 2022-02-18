@@ -13,17 +13,6 @@ ul {
 	list-style-type: none;
 	list-style-position: inside;
 }
-.design .main p,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-	padding: 0 0 30px 0;
-}
 .primary {
 	color: #2e98c2;
 }
@@ -36,4 +25,14 @@ a {
 a {
 	color: #2e98c2;
 	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+blockquote {
+	font-style: italic;
+	margin-bottom: 30px;
+}
+p:not(:last-child) {
+	margin-bottom: 30px;
 }

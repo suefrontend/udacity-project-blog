@@ -1,0 +1,29 @@
+.article-title {
+	margin-bottom: 10px;
+}
+.article p {
+	margin-bottom: 30px;
+}
+.article-img {
+	margin-bottom: 30px;
+}
+.article-img img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.article-img-caption {
+	opacity: 0.7;
+	font-style: italic;
+}
+.social-media-title {
+	margin-bottom: 5px;
+}
+.social-media-list {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, 50px);
+}
+.social-media-item:not(:last-child) {
+	margin-right: 10px;
+}

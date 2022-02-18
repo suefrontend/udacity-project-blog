@@ -1,0 +1,18 @@
+.author {
+	text-align: center;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.author-content {
+	padding: 10px 0;
+}
+.author-img {
+	width: 100%;
+}
+.author-title {
+	font-size: 150%;
+	text-transform: uppercase;
+}
+.author-text-bold {
+	font-weight: bold;
+}
